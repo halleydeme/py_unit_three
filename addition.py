@@ -1,9 +1,15 @@
-# Write your addition function in the space below...
+
+def add_two(n,n2):
+    answer = int(n) + int(n2)
+    print( "The sum of " + n + " and " + n2 + " is " + str(answer))
+
 
 
 # Do not change anything below these lines
 def main():
-    pass
+    n = input("number")
+    n2 = input("second number")
+    add_two(n,n2)
 
 if __name__ == '__main__':
     main()
