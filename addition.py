@@ -1,7 +1,8 @@
 
 def add_two(n,n2):
     answer = int(n) + int(n2)
-    print( "The sum of " + n + " and " + n2 + " is " + str(answer))
+    print( "The sum of " + str(n) + " and " + str(n2)
+           + " is " + str(answer))
 
 
 
